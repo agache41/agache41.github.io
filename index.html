@@ -31,13 +31,15 @@
     generalized solutions.
     I believe that "change is everything" and when we apply this truth to a developing project we get a
     different vision, at least about our code.
+    <br><br>
+    Over the years I specialized in developing service libraries using Java generics, annotations and ORM.
 </p>
 <p class="justified">
     Here are some of my available open source projects available on <a
         href="https://github.com/agache41">GitHub</a>.
 </p>
 <hr>
-<h1 class="justified">Functional Annotations</h1>
+<h2 class="justified">Functional Annotations</h2>
 <p class="justified"> What would you say the following code snippet does ?</p>
 <img src="assets/intrigue.jpg" class="foto" width="800" height="auto" alt="Photo">
 <p class="justified"> Well,
@@ -50,15 +52,16 @@
     reads each line in a String Array and finally parses the csv content in a Stream of Java Beans,
     than you are probably right.
     And to be accurate it also does the complete reverse process when saving is called.</p>
-<h2 class="justified"> Want to know more ? Have a look at the <a href="index.html">Functional Annotations</a> repository
-    on GitHub.</h2>
+<p class="justified"> Want to know more ? Have a look at the <a href="index.html">Functional Annotations</a> repository
+    on GitHub.</p>
 <hr>
-<h1 class="justified">Generic REST JPA</h1>
+<h2 class="justified">Generic REST JPA</h2>
 <p class="justified">
 
     How about a Library, that used on a JPA Entity, generates a complete REST solution using CRUD and writes the unit
     tests for you ? <br><br>
-    <a href="https://github.com/agache41/generic-rest-jpa">Generic REST JPA</a> is a JEE library targeted on creating generic Resource Services and Data Access Layers on top of
+    <a href="https://github.com/agache41/generic-rest-jpa">Generic REST JPA</a> is a JEE library targeted on creating
+    generic Resource Services and Data Access Layers on top of
     JPA and CDI.<br><br>
     It develops REST Services starting from the CRUD pattern and extends it by adding frequently needed methods to each
     domain entity.<br><br>
@@ -68,10 +71,27 @@
     <br><br>
     And that comes with already developed test units that bring 100% coverage to all provided service methods.
 </p>
-<h2 class="justified">Interested ? Have a look at the <a href="https://github.com/agache41/generic-rest-jpa">Generic REST JPA</a> repository on GitHub.</h2>
+<p class="justified">Interested ? Have a look at the <a href="https://github.com/agache41/generic-rest-jpa">Generic REST
+    JPA</a> repository on GitHub.</p>
 <hr>
-<h1 class="justified">Generic REST JPA</h1>
-<p class="justified"></p>
+<h2 class="justified">Annotator</h2>
+<p class="justified">
+    You have to implement a solution that uses many annotations, and you already had a lot of issues handling them ?
+    <br><br>
+    Annotator is a plain Java library targeted on delivering an uniform reflection and annotation API over multiple ORM
+    use cases.
+    <br><br>
+    The API is defined in the main Interface Annotate. Given a specific scope that can be a
+    class/instance/field/method/accessors, 14 methods are available.
+    <br><br>
+    Using the annotator class through this API multiple points of interest can be queried from the ORM perspective :
+    classes, fields, methods, objects. The Library also introduces the concept of accessor, an unified API over
+    properties of a class. The Accessor class provides uniform access methods over values stored in a Java Bean, either
+    using setter-getter or direct field access. It also provides uniform access over the annotations present on the
+    field or methods that compose this pattern.
+<p class="justified">Check out the <a href="https://github.com/agache41/annotator">Annotator</a> repository on GitHub.
+</p>
+</p>
 <hr>
 <p class="justified"> &copy; Alexandru Agache 2024</p>
 <p> Note: Page is under construction.</p>
