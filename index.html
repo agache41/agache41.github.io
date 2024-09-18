@@ -1,12 +1,41 @@
 <!doctype html>
 <html>
-  <head>
-    <title>This is the title of the webpage!</title>
-  </head>
-  <body>
-    
-    <p>This is an example paragraph. Anything in the <strong>body</strong> tag will appear on the page, just like this <strong>p</strong> tag and its contents.</p>
-    
-    <p> Under construction.</p>
-  </body>
+<head>
+    <title>About me</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<p class="p1 left"> About me</p>
+<hr>
+<div class="parent">
+    <div class="left child">
+        <img src="assets/me.jpg" class="foto" width="368" height="auto">
+    </div>
+    <div class="child pres">
+        <p class = "justified">
+            Hello everyone, my name is Alexandru Agache and I am a java developer living in Munich, Bavaria.
+        </p>
+        <p class="justified">
+            My passion for Java has
+        </p>
+    </div>
+</div>
+<hr>
+
+<p class="justified"> What would you say the following code snippet does ?</p>
+<img src="assets/intrigue.jpg" class="foto" width="800" height="auto">
+<p class="justified"> Well,
+    if you guessed that it creates a file,
+    then opens a IOStream on it,
+    reads it as a Zip archive,
+    seeks and streams the File Entry named "data.csv",
+    identifies the used encoding and opens a Reader on it,
+    reads the content line by line,
+    reads each line in a String Array and finally parses the csv content in a Stream of Java Beans,
+    than you are probably right.
+    And to be accurate it also does the complete reverse process when saving is called.</p>
+<p  class="justified"> Want to know more ? Have a look at the <a href="index.html">Functional Annotations</a> repository on GitHub.</p>
+<p  class="justified"> &copy; Alexandru Agache 2024</p>
+<p> Note: Page is under construction.</p>
+</body>
 </html>
