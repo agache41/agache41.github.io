@@ -1,5 +1,5 @@
 .p1 {
-       font:arial;
+     font:arial;
 }
 
 .center {
@@ -59,4 +59,16 @@ body {
   flex-grow: 0;
   flex-shrink: 0;
   flex-basis: calc(45% - 20px);
+}
+
+h1 {
+  font-size: 18px;
+}
+
+h2 {
+  font-size: 16px;
+}
+
+p {
+  font-size: 14px;
 }
