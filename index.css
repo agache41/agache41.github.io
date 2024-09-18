@@ -17,6 +17,7 @@
 .justified{
   padding: 10px;
   text-align:justified;
+  text-justify: inter-word;
 }
 
 .pres {
@@ -52,10 +53,10 @@ body {
 
 .parent {
   display: flex;
-  //flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 .child {
   flex-grow: 0;
   flex-shrink: 0;
-  flex-basis: calc(50% - 20px);
+  flex-basis: calc(45% - 20px);
 }
